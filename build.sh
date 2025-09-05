@@ -11,11 +11,8 @@ mkdir -p "$OUT_DIR"
 cd "$DOCS_DIR"
 
 targets=(
-  atto_costitutivo.tex
-  statuto.tex
-  regolamento_interno.tex
-  codice_etico.tex
-  relazione_programmatica.tex
+  documentazione_istituzionale.tex
+  documentazione_extra.tex
 )
 
 build_one() {
@@ -26,6 +23,7 @@ build_one() {
 
 # Commands: build (default) | clean | distclean
 cmd="${1:-build}"
+
 
 case "$cmd" in
   clean)
@@ -56,18 +54,11 @@ case "$cmd" in
     echo "Distclean completed. $OUT_DIR emptied (salvato .gitkeep)."
     ;;
   build|*)
-    # Build mandatory docs
     built=()
-    for f in atto_costitutivo.tex statuto.tex; do
+    for f in "${targets[@]}"; do
       build_one "$f" && built+=("$f")
     done
-    # Optional docs
-    for f in regolamento_interno.tex codice_etico.tex relazione_programmatica.tex; do
-      if [ -f "$f" ]; then
-        build_one "$f" && built+=("$f")
-      fi
-    done
-    # Move PDFs from build/ to repo root for easy access
+    # Move only the two master PDFs to repo root
     for f in "${built[@]}"; do
       base="${f%.tex}"
       if [ -f "$OUT_DIR/${base}.pdf" ]; then
@@ -75,6 +66,8 @@ case "$cmd" in
         echo "Moved ${base}.pdf to repo root"
       fi
     done
-    echo "Build completed. PDFs moved to repo root. Intermediates in $OUT_DIR"
+    # Remove any other PDF from repo root except the two master docs
+    find "$ROOT_DIR" -maxdepth 1 -type f -name '*.pdf' ! -name 'documentazione_istituzionale.pdf' ! -name 'documentazione_extra.pdf' -exec rm -f {} +
+    echo "Build completed. Solo i due PDF master sono nella root. Intermediates in $OUT_DIR"
     ;;
 esac
