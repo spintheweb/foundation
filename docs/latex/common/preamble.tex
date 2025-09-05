@@ -1,0 +1,39 @@
+% Preambolo LaTeX condiviso per i documenti della Fondazione
+% Da includere dopo \documentclass in ciascun file principale
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{csquotes}
+
+% Layout
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
+
+% Tipografia
+\usepackage{microtype}
+\usepackage{lmodern}
+
+% Struttura e liste
+\usepackage{enumitem}
+\setlist{noitemsep,topsep=0.5\baselineskip}
+
+% Link e colori
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue]{hyperref}
+\usepackage{xcolor}
+
+% Comandi utili
+\newcommand{\articolo}[1]{\section*{Art.~#1}}
+\newcommand{\comma}[1]{\paragraph{#1.}}
+\newcommand{\definedterm}[1]{\textbf{#1}}
+
+% Condizionali (ETS / non ETS)
+\newif\ifETS
+
+% Firme e date
+\newcommand{\firma}[1]{\vspace{2\baselineskip}\noindent\makebox[0.45\linewidth]{\hrulefill}\hfill\makebox[0.45\linewidth]{\hrulefill}\\[0.2\baselineskip]
+\noindent\makebox[0.45\linewidth][l]{\small #1}\hfill\makebox[0.45\linewidth][l]{\small Firma}}
+\newcommand{\DataLuogo}[2]{\vspace{\baselineskip}\noindent\textit{#1, #2}}
