@@ -58,16 +58,16 @@ case "$cmd" in
     for f in "${targets[@]}"; do
       build_one "$f" && built+=("$f")
     done
-    # Move only the two master PDFs to repo root
-    for f in "${built[@]}"; do
-      base="${f%.tex}"
-      if [ -f "$OUT_DIR/${base}.pdf" ]; then
-        mv -f "$OUT_DIR/${base}.pdf" "$ROOT_DIR/${base}.pdf"
-        echo "Moved ${base}.pdf to repo root"
-      fi
-    done
-    # Remove any other PDF from repo root except the two master docs
-    find "$ROOT_DIR" -maxdepth 1 -type f -name '*.pdf' ! -name 'documentazione_istituzionale.pdf' ! -name 'documentazione_extra.pdf' -exec rm -f {} +
-    echo "Build completed. Solo i due PDF master sono nella root. Intermediates in $OUT_DIR"
+      # Sposta solo i due PDF master nella root
+      for f in "${built[@]}"; do
+        base="${f%.tex}"
+        if [ -f "$OUT_DIR/${base}.pdf" ]; then
+          mv -f "$OUT_DIR/${base}.pdf" "$ROOT_DIR/${base}.pdf"
+          echo "Moved ${base}.pdf to repo root"
+        fi
+      done
+      # Rimuove eventuali altri PDF dalla root, eccetto i due master
+      find "$ROOT_DIR" -maxdepth 1 -type f -name '*.pdf' ! -name 'documentazione_istituzionale.pdf' ! -name 'documentazione_extra.pdf' -exec rm -f {} +
+      echo "Build completed. Solo i due PDF master sono nella root. Intermediates in $OUT_DIR"
     ;;
 esac

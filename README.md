@@ -18,26 +18,31 @@ I modelli sono pensati per essere compilati con LaTeX e adattati ai dati reali (
 La Fondazione “Spin the Web” nasce per promuovere la cultura digitale, l’innovazione sociale e la condivisione di conoscenze, con particolare attenzione all’inclusività e all’etica.
 
 ## Struttura del repository
-- Documenti LaTeX per la costituzione e la gestione della fondazione
-- Script di compilazione automatica
+- Documenti LaTeX suddivisi in:
+	- `docs/latex/istituzionale/`: atti, statuto, regolamento, codice etico, relazione programmatica, allegati
+	- `docs/latex/extra/`: policy operative e modelli gestionali
+- File di configurazione e preambolo condiviso (`docs/latex/config.tex`, `docs/latex/preamble.tex`)
+- Script di compilazione automatica (`build.sh`)
 - File di licenza (CC BY-SA 4.0), codice di condotta e linee guida per i contributori
 
 ## Navigazione e utilizzo
 - Personalizza `docs/latex/config.tex` con i dati della fondazione
 - Consulta le introduzioni nei file `.tex` per comprendere lo scopo di ciascun documento
-- Compila i PDF tramite `build.sh` o editor LaTeX
+- Compila i PDF tramite `build.sh` (produce solo `documentazione_istituzionale.pdf` e `documentazione_extra.pdf` nella root) o tramite editor LaTeX
 
 ## File principali
 - `LICENSE`: licenza Creative Commons BY-SA 4.0
-- `CODE_OF_CONDUCT.md`: regole di comportamento
-- `CONTRIBUTING.md`: linee guida per i contributori
-- `CHANGELOG.md`: registro delle modifiche
+- `build.sh`: script di compilazione automatica
 
 ## Informazioni di contatto
 Per domande, suggerimenti o segnalazioni, contatta i responsabili della fondazione all’indirizzo email info@spintheweb.org.
 Sito web ufficiale: [www.spintheweb.org](https://www.spintheweb.org)
 
-## Da revisionare
+## Output della build
+La compilazione produce **solo due PDF finali** nella root del repository:
+- `documentazione_istituzionale.pdf`: raccoglie tutti i documenti istituzionali
+- `documentazione_extra.pdf`: raccoglie policy operative e modelli gestionali
+Tutti gli altri file intermedi e sorgenti rimangono nelle rispettive cartelle.
 - Verifica la conformità dei testi alle normative vigenti
 - Consulta un professionista per la revisione finale
 
