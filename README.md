@@ -23,7 +23,7 @@ La Fondazione “Spin the Web” nasce per promuovere la cultura digitale, l’i
 	- `docs/latex/extra/`: policy operative e modelli gestionali
 - File di configurazione e preambolo condiviso (`docs/latex/config.tex`, `docs/latex/preamble.tex`)
 - Script di compilazione automatica (`build.sh`)
-- File di licenza (CC BY-SA 4.0), codice di condotta e linee guida per i contributori
+- File di licenza (CC BY-SA 4.0)
 
 ## Navigazione e utilizzo
 - Personalizza `docs/latex/config.tex` con i dati della fondazione
@@ -48,15 +48,23 @@ Tutti gli altri file intermedi e sorgenti rimangono nelle rispettive cartelle.
 
 ---
 
-## Struttura
+## Struttura dei file principali
 
-- `docs/latex/common/preamble.tex`: preambolo LaTeX condiviso (pacchetti, stile)
-- `docs/latex/config.tex`: variabili e opzioni (nome fondazione, sede, ETS sì/no, ecc.)
-- `docs/latex/atto_costitutivo.tex`
-- `docs/latex/statuto.tex`
-- `docs/latex/regolamento_interno.tex` (opzionale)
-- `docs/latex/codice_etico.tex` (opzionale)
-- `docs/latex/relazione_programmatica.tex` (opzionale)
+- `docs/latex/`
+  - `preamble.tex`: preambolo LaTeX condiviso (pacchetti, stile).
+  - `config.tex`: variabili e opzioni (nome fondazione, sede, ETS sì/no, ecc.).
+  - `documentazione_istituzionale.tex`: file master per il PDF con gli atti ufficiali.
+  - `documentazione_extra.tex`: file master per il PDF con la documentazione operativa.
+  - `documentazione_operativa.tex`: modello non incluso nella build standard.
+  - `istituzionale/`: contiene i singoli capitoli del PDF istituzionale.
+    - `atto_costitutivo.tex`
+    - `statuto.tex`
+    - `regolamento_interno.tex` (opzionale)
+    - `codice_etico.tex` (opzionale)
+    - `relazione_programmatica.tex` (opzionale)
+    - `fondatori.tex` (allegato)
+  - `extra/`: contiene i capitoli del PDF extra.
+  - `operativa/`: attualmente vuota.
 
 ## Come personalizzare
 
@@ -77,7 +85,7 @@ Pre-requisiti: una distribuzione LaTeX (TeX Live o MiKTeX) e `latexmk` consiglia
 Compilazione rapida (PDFLaTeX) con script dedicato:
 
 ```bash
-cd d:/Projects/spintheweb-foundation
+cd d:/Projects/spintheweb/foundation
 ./build.sh
 ```
 
