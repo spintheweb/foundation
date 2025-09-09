@@ -1,6 +1,6 @@
 # Spin the Web – Documentazione per la costituzione della Fondazione (IT)
 
-Questo repository contiene modelli in LaTeX per redigere la documentazione necessaria alla costituzione della Fondazione dedicata al progetto “Spin the Web”. I modelli sono in italiano e includono:
+Questo repository contiene la documentazione necessaria alla costituzione della Fondazione dedicata al progetto “Spin the Web”. I modelli sono in italiano e includono:
 
 - Atto costitutivo (modello personalizzabile)
 - Statuto (con opzioni per fondazione “classica” o Ente del Terzo Settore – ETS)
@@ -8,14 +8,12 @@ Questo repository contiene modelli in LaTeX per redigere la documentazione neces
 - Codice etico (facoltativo)
 - Relazione programmatica/pluriennale (facoltativa, utile per riconoscimento e RUNTS)
 
-I modelli sono pensati per essere compilati con LaTeX e adattati ai dati reali (denominazione, sede, scopi, organi, dotazione patrimoniale, ecc.).
-
 > Nota legale: questi modelli hanno scopo informativo e operativo; non sostituiscono la consulenza di un notaio/consulente. La costituzione di una fondazione richiede l’atto notarile e l’eventuale riconoscimento della personalità giuridica, nonché (se applicabile) l’iscrizione al RUNTS.
 
 ---
 
 ## Missione e valori
-La Fondazione “Spin the Web” nasce per promuovere la cultura digitale, l’innovazione sociale e la condivisione di conoscenze, con particolare attenzione all’inclusività e all’etica.
+La Fondazione “Spin the Web” nasce per promuovere la cultura digitale in qualsiasi ambito lavorativo ... [WIP]
 
 ## Struttura del repository
 - Documenti LaTeX suddivisi in:
