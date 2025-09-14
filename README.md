@@ -1,3 +1,5 @@
+![status: work in progress](https://img.shields.io/badge/status-WIP-yellow)
+
 # Spin the Web – Documentazione per la costituzione della Fondazione (IT)
 
 Questo repository contiene la documentazione necessaria alla costituzione della Fondazione dedicata al progetto “Spin the Web”. I modelli sono in italiano e includono:
