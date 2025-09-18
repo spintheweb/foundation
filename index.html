@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<base href="https://spintheweb.org/" />
+	<meta charset="utf-8">
+	<title>Spin the Web Foundation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+		content="The Spin the Web Foundation stewards an open-source framework for building enterprise web portals, unifying heterogeneous systems into a single digital channel for eBranding.">
+	<meta name="keywords"
+		content="Spin the Web, eBranding, web portals, enterprise portals, open source framework, systems integration, Spin the Web Foundation, STW, webbase, webbaselets">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/favicons/site.webmanifest">
+	<link rel="shortcut icon" href="/favicons/favicon.ico">
+
+	<style>
+		body {
+			margin: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f9f9f9;
+			color: #333;
+		}
+
+		header {
+			background-color: #fff;
+			border-bottom: 1px solid #eee;
+			padding: 0.5em 1em;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.header-links {
+			display: flex;
+			gap: 1em;
+			align-items: center;
+		}
+
+		main {
+			padding: 2em;
+		}
+
+		.content {
+			max-width: 900px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.note {
+			background: #fff3cd;
+			color: #856404;
+			border: 1px solid #ffeeba;
+			padding: 1em;
+			margin-bottom: 2em;
+			border-radius: 6px;
+			text-align: center;
+		}
+
+		.description {
+			text-align: justify;
+			margin-bottom: 2em;
+		}
+
+		.section {
+			margin-bottom: 2em;
+		}
+
+		.section h2 {
+			text-align: center;
+			margin-bottom: 1em;
+		}
+
+		.section ul {
+			text-align: left;
+			list-style-position: inside;
+		}
+
+		footer {
+			text-align: center;
+			padding: 2em;
+			margin-top: 2em;
+			border-top: 1px solid #eee;
+			color: #777;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		@media (max-width: 860px) {
+			header {
+				flex-direction: column;
+				gap: 1em;
+			}
+
+			.header-links {
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div style="display: flex;">
+			<img src="./figures/logo.png" alt="Logo" style="height: 50px; margin-right: 1em;">
+			<div>
+				<span style="font-size: 1.5em; font-weight: bold;">Spin the Web Foundation</span><br>
+				<span style="font-size: 1em; color: #555;">Weaving Web Portals</span>
+			</div>
+		</div>
+		<div class="header-links">
+			<span><i class="fa-brands fa-github"></i> <a href="https://github.com/spintheweb"
+					title="GitHub">https://github.com/spintheweb</a></span>
+			<span><i class="fa-solid fa-envelope"></i> <a href="mailto:info@spintheweb.org">info@spintheweb.org</a></span>
+		</div>
+	</header>
+	<main>
+		<div class="content">
+			<div class="note">
+				<strong>Notice:</strong> The Spin the Web Foundation is work in progress.
+				See <i class="fa-solid fa-book-open"></i> <a
+					href="https://raw.githubusercontent.com/spintheweb/book/master/SpinTheWeb.pdf">Spin the Web (PDF)</a>.
+			</div>
+			<p class="description">
+				The Spin the Web Foundation stewards the open-source <strong>Spin the Web</strong> framework, which offers a
+				systematic approach to building enterprise web portals. Our mission is to virtualize the enterprise brand
+				(<em>eBranding</em>) by unifying diverse systems like ERP, CRM, and BPMS into a single, consistent digital
+				channel for all stakeholders.
+			</p>
+			<p><img src="./figures/spin-the-web.png" alt="Spin the Web"></p>
+
+			<div class="section">
+				<h2>Founder's Vision</h2>
+				<p class="description">
+					Spin the Web emerged from real-world frustration with the fragmentation of enterprise software. Instead
+					of integrating disparate systems at the data level, we believe in integrating them at the experience
+					level. This book introduces a paradigm shift: the "virtualized company"—a single, coherent digital
+					interface that adapts to each user's role, whether they are a customer, employee, supplier, or partner.
+					This isn't just another portal framework; it's a rethinking of how organizations should present
+					themselves digitally.
+				</p>
+			</div>
+
+			<div class="section">
+				<h2>Our Roadmap</h2>
+				<p class="description">
+					Our immediate roadmap is focused on building a solid organizational and technical foundation for open-source collaboration. Our key objectives are:
+				</p>
+				<ul>
+					<li><strong>Set up the Foundation:</strong> Establishing the organizational structure and governance
+						model to support open-source collaboration.</li>
+					<li><strong>Complete the Documentation:</strong> Finalizing the documentation for the framework's
+						architecture and components.</li>
+					<li><strong>Release framework version 1.0.0:</strong> Completing the initial setup of the core framework.</li>
+					<li><strong>Provide a sandbox environment:</strong> Creating a Docker container to provide a ready-to-use sandbox
+						 for demonstrating capabilities, experimenting, and building live portals.</li>
+				</ul>
+				<p>Follow our progress on <a href="https://github.com/spintheweb">GitHub</a>.</p>
+			</div>
+
+			<div class="section">
+				<h2>Get Involved</h2>
+				<p class="description">
+					The Spin the Web Foundation is a work in progress, and we invite you to be part of our journey. As a
+					community-driven project, we are looking for founding contributors to help shape the future of the
+					framework. Whether you are a developer, an architect, or a technology leader, your feedback and
+					contributions are invaluable.
+				</p>
+				<p>
+					You can start by joining the <a href="https://github.com/spintheweb/docs/discussions">Spin the Web
+						Discussions</a>, or reading our <a
+						href="https://github.com/spintheweb/docs/blob/master/README.md">contribution guidelines</a>.
+				</p>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>This site will be built on the <strong>Spin the Web</strong> framework!</p>
+		<p>&copy; 2025 Spin the Web Foundation</p>
+		<p>Released under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+				Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a></p>
+	</footer>
+</body>
+
+</html>
