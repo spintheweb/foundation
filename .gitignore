@@ -1,28 +1,2 @@
-# Build outputs
-/build/
-
-# LaTeX auxiliary files
-*.aux
-*.bbl
-*.blg
-*.brf
-*.fdb_latexmk
-*.fls
-*.idx
-*.ilg
-*.ind
-*.log
-*.lot
-*.lof
-*.loa
-*.out
-*.toc
-*.synctex.gz
-*.nav
-*.snm
-*.xdv
-
-# OS/editor
-.DS_Store
-Thumbs.db
 .vscode/
+docs/
