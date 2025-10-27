@@ -4,24 +4,24 @@
 		<base href="https://spintheweb.org/" />
 		<meta charset="utf-8">
 		<title>
-			Spin the Web – Open Collective
+			Spin the Web Foundation – Open Source Web Portal Framework
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta
 			name="description"
-			content="Open source framework for building enterprise web portals. Spin the Web is managed transparently via Open Collective."
+			content="Open source framework for building enterprise web portals. Spin the Web Foundation unifies systems for eBranding and digital transformation."
 		>
 		<meta
 			name="keywords"
-			content="Spin the Web, eBranding, web portals, open source, Open Collective, digital transformation, community, governance"
+			content="Spin the Web, eBranding, web portals, enterprise portals, open source framework, systems integration, digital transformation, modular portals, Docker labs, documentation, STW"
 		>
 		<meta
 			property="og:title"
-			content="Spin the Web – Open Collective"
+			content="Spin the Web Foundation – Open Source Web Portal Framework"
 		>
 		<meta
 			property="og:description"
-			content="Build enterprise web portals with Spin the Web. Open source, community-driven, and managed via Open Collective."
+			content="Build enterprise web portals with Spin the Web. Open source, modular, and ready for digital transformation."
 		>
 		<meta
 			property="og:image"
@@ -33,18 +33,18 @@
 			{
 				"@context": "https://schema.org",
 				"@type": "Organization",
-				"name": "Spin the Web",
+				"name": "Spin the Web Foundation",
 				"url": "https://spintheweb.org/",
 				"logo": "https://spintheweb.org/figures/logo.png",
 				"sameAs": [
-					"https://github.com/spintheweb",
-					"https://opencollective.com/spintheweb"
+					"https://github.com/spintheweb"
 				]
 			}
 		</script>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
@@ -67,6 +67,12 @@
 		>
 		<link rel="manifest" href="/favicons/site.webmanifest">
 		<link rel="shortcut icon" href="/favicons/favicon.ico">
+		<script>
+			fetch("/visits.php", { method: "POST" }).catch(
+				() => {},
+			);
+		</script>
+
 		<style>
 			body {
 				margin: 0;
@@ -166,65 +172,139 @@
 				>
 				<div>
 					<span style="font-size: 1.5em; font-weight: bold"
-					>Spin the Web</span><br>
+					>Spin the Web Foundation</span><br>
 					<span style="font-size: 1em; color: #555"
-					>Open Collective Community</span>
+					>Weaving Web Portals</span>
 				</div>
 			</div>
 			<div class="header-links">
 				<span><i class="fa-brands fa-github"></i> <a
 						href="https://github.com/spintheweb"
 						title="GitHub"
-					>GitHub</a></span>
-				<span><i class="fa-brands fa-opencollective"></i> <a
-						href="https://opencollective.com/spintheweb"
-						title="Open Collective"
-					>Open Collective</a></span>
+					>https://github.com/spintheweb</a></span>
 				<span><i class="fa-solid fa-envelope"></i> <a
 						href="mailto:info@spintheweb.org"
 					>info@spintheweb.org</a></span>
 			</div>
 		</header>
 		<main class="content">
-			<h1>Spin the Web – Open Collective</h1>
+			<h1>Spin the Web Foundation</h1>
 			<div class="note">
-				<strong>Notice:</strong> Spin the Web is a community-driven project managed transparently via <a
-					href="https://opencollective.com/spintheweb"
-				>Open Collective</a>.
+				<strong>Notice:</strong> The Spin the Web Foundation is work in
+				progress. See <i class="fa-solid fa-book-open"></i> <a
+					href="https://raw.githubusercontent.com/spintheweb/book//SpinTheWeb.pdf"
+				>Spin the Web (PDF)</a>.
 			</div>
 			<p class="description">
-				Spin the Web is an open-source framework and community for building enterprise web portals. Our mission is to promote digital transformation, open standards, and social impact through open collaboration and transparent funding.
+				The Spin the Web Foundation stewards the open-source <strong
+				>Spin the Web</strong> framework, which offers a systematic
+				approach to building enterprise web portals. Our mission is to
+				achieve enterprise branding (<em>eBranding</em>)—the
+				virtualization of your company's digital identity—by unifying
+				diverse systems like ERP, CRM, MRP, BPMS, HR... into a single,
+				consistent digital channel for all stakeholders. Rather than
+				replacing existing systems, the framework creates a uniform user
+				experience that seamlessly integrates with your current
+				infrastructure, ensuring your brand presence remains cohesive
+				across all enterprise touchpoints.
 			</p>
+			<p>
+				<img
+					src="./figures/spin-the-web.png"
+					alt="Spin the Web in a 1000 words"
+				>
+			</p>
+
 			<div class="section">
-				<h2>Mission</h2>
+				<h2>Founder's Vision</h2>
 				<p class="description">
-					See our <a href="./MISSION.md">Mission Statement</a> for details.
+					Spin the Web grew out of frustration with the fragmentation
+					of enterprise software. Rather than focusing on deep
+					data-level integration, we prioritize integrating systems at
+					the experience level. The Spin the Web book describes the
+					idea of the "virtualized company": a single, coherent
+					digital interface that adapts to each user's role—customer,
+					employee, supplier, or partner. This approach is not about
+					marketing claims; it is a practical way to present a
+					consistent, role-aware digital experience across an
+					organization's existing systems.
+				</p>
+				<p class="description">
+					Spin the Web builds on fundamental web standards—HTTP, HTML,
+					CSS, and JavaScript—leveraging them in a cohesive framework
+					that takes the web to the next logical level. Through WBDL
+					(Webbase Description Language), Spin the Web coordinates
+					these standard technologies to develop complex, role-aware
+					enterprise web portals.
+				</p>
+				<p class="description">
+					In other words: Spin the Web doesn’t reinvent the web — it
+					weaves the web’s existing building blocks into scalable,
+					maintainable, and extensible enterprise solutions.
 				</p>
 			</div>
+
 			<div class="section">
-				<h2>Governance</h2>
+				<h2>Our Roadmap</h2>
 				<p class="description">
-					Spin the Web is governed openly by its contributors and supporters. See our <a href="./GOVERNANCE.md">Governance Model</a>.
+					Our immediate roadmap is focused on building a solid
+					organizational and technical foundation for open-source
+					collaboration. Our key objectives are:
+				</p>
+				<ul>
+					<li>
+						<strong>Set up the Foundation:</strong> Establishing the
+						organizational structure and governance model to support
+						open-source collaboration.
+					</li>
+					<li>
+						<strong>Write the book:</strong> Creating documentation
+						that explains the framework’s architecture and
+						components, evolving alongside the project.
+					</li>
+					<li>
+						<strong>Release framework webspinner v1.0.0:</strong>
+						Completing the initial setup of the core framework.
+					</li>
+					<li>
+						<strong>Provide a labs environment:</strong>
+						Deploying a Docker-based environment to provide a ready-to-use
+						lab for demonstrating capabilities, experimenting, and
+						building live portals.
+					</li>
+					<li>
+						<strong>Build this site:</strong> Building this site
+						with the framework!
+					</li>
+				</ul>
+				<p>
+					Follow our progress on <a
+						href="https://github.com/spintheweb"
+					>GitHub</a>.
 				</p>
 			</div>
+
 			<div class="section">
 				<h2>Get Involved</h2>
 				<p class="description">
-					We welcome contributions from everyone! Read our <a href="./CONTRIBUTING.md">Contributing Guide</a> and <a href="./CODE_OF_CONDUCT.md">Code of Conduct</a>.
+					The Spin the Web Foundation is a work in progress, and we
+					invite you to be part of our journey. As a community-driven
+					project, we are looking for founding contributors to help
+					shape the future of the framework. Whether you are a
+					developer, an architect, or a technology leader, your
+					feedback and contributions are invaluable.
 				</p>
 				<p>
-					Join the discussion on <a href="https://opencollective.com/spintheweb/discussions">Open Collective</a> or <a href="https://github.com/spintheweb/foundation/discussions">GitHub</a>.
-				</p>
-			</div>
-			<div class="section">
-				<h2>Financial Transparency</h2>
-				<p class="description">
-					All funds are managed via <a href="https://opencollective.com/spintheweb">Open Collective</a>. You can view all expenses, contributions, and reports publicly.
+					You can start by joining the <a
+						href="https://github.com/spintheweb/foundation/discussions"
+					>Spin the Web Discussions</a>, or reading our <a
+						href="https://github.com/spintheweb/foundation/blob/main/README.md"
+					>contribution guidelines</a>.
 				</p>
 			</div>
 		</main>
 		<footer class="content">
-			<p>© 2025 Spin the Web Community</p>
+			<p>© 2025 Giancarlo Trevisan</p>
 			<p>
 				Released under the <a
 					href="https://creativecommons.org/licenses/by-sa/4.0/"
@@ -232,7 +312,12 @@
 					BY-SA 4.0)</a>
 			</p>
 			<p class="description">
-				Spin the Web is stewarded by its community and Open Collective backers. All governance, finances, and decisions are open and documented.
+				The Spin the Web framework is stewarded by the emerging Spin the
+				Web Foundation, which is granted an irrevocable, royalty-free
+				license to distribute, evolve, and coordinate contributions to
+				the framework. This structure ensures continuity and
+				institutional governance while preserving the original author's
+				copyright.
 			</p>
 		</footer>
 	</body>
