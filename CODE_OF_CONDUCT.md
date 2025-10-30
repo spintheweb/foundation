@@ -10,7 +10,7 @@ Spin the Web is committed to a safe, inclusive, and respectful environment for a
 - Use open licenses for content and code
 
 ## Reporting
-If you experience or witness unacceptable behavior, please report it via our [Open Collective contact form](https://opencollective.com/spintheweb/contact) or email the maintainers.
+If you experience or witness unacceptable behavior, please email the maintainers at info@spintheweb.org.
 
 ## Enforcement
 Violations may result in warnings, removal from the community, or other actions as appropriate.

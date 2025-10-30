@@ -1,4 +1,5 @@
-# Mission – Spin the Web (Open Collective)
+
+# Mission – Spin the Web
 
 Spin the Web exists to:
 
@@ -6,4 +7,3 @@ Spin the Web exists to:
 - Foster open collaboration and knowledge sharing
 - Support social impact projects through technology
 - Ensure transparency, inclusivity, and ethical conduct in all activities
-- Manage all funds and community resources openly via Open Collective
