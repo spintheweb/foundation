@@ -1,6 +1,6 @@
 # Audience Overviews
 
-This page provides concise, role-focused snapshots so key stakeholders can quickly grasp how Spin the Web aligns with their objectives. Use these overviews to connect strategic goals with the Foundation’s modular architecture and governance model.
+This page provides concise, role-focused snapshots so key stakeholders can quickly grasp how Spin the Web aligns with their objectives. Use these overviews to connect strategic goals with the project's modular architecture and governance model.
 
 ## For the CTO
 

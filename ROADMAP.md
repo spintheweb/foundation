@@ -1,12 +1,12 @@
-# Spin the Web Foundation – Roadmap
+# Spin the Web Project – Roadmap
 
-This document outlines the strategic direction of the Spin the Web Foundation, including goals for governance, documentation, and development of its core projects.
+This document outlines the strategic direction of the Spin the Web Project, including goals for governance, documentation, and development of its core projects.
 
-## Foundation Objectives
+## Project Objectives
 
 - Translate institutional documents into English for international transparency
 - Establish a contributor onboarding process and public-facing handbook
-- Launch the Foundation’s official website with multilingual support
+- Launch the Project’s official website with multilingual support
 - Prepare documentation for RUNTS registration and ETS compliance
 
 ## Book: Weaving Digital Portals
@@ -29,7 +29,7 @@ This document outlines the strategic direction of the Spin the Web Foundation, i
 
 - Publish Code of Conduct and Security Policy
 - Add CONTRIBUTING.md and issue templates
-- Create a plain-language Foundation Handbook
+- Create a plain-language Project Handbook
 
 ## Community and Outreach
 

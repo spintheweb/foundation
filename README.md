@@ -17,7 +17,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md)
 See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
 
 ## Community
-- [GitHub Issues](https://github.com/spintheweb/foundation/issues)
+- [GitHub Issues](https://github.com/spintheweb/project/issues)
 
 ## License
 Content and code are released under open licenses. See individual files for details.
