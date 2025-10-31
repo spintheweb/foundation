@@ -1,5 +1,6 @@
 ![status: work in progress](https://img.shields.io/badge/status-WIP-yellow)
 ![Contributors Wanted](https://img.shields.io/badge/contributors-wanted-brightgreen)
+![Passion-Driven](https://img.shields.io/badge/project-passion--driven-blueviolet)
 
 **Looking for contributors!**
 
@@ -19,22 +20,39 @@ Thank you for your interest in contributing! We welcome contributions from every
 
 Spin the Web thrives on the creativity and expertise of contributors from many backgrounds. 
 
-### UI/UX
-
-If you are passionate about UI/UX, your skills are especially valuable. In our project, a “content” is a dynamic data unit that communicates with a datasource, receives a JSON response, and rendering in many ways—such as a table, list, Gantt chart, plot, tree, or graph. UI/UX contributors help design and prototype adaptable, accessible, and visually engaging components for these data types. Your work ensures that users can interact with complex, dynamic data in intuitive and meaningful ways. We encourage you to bring new ideas for visualizations, improve user flows, and test usability with real data and users. Your contributions will directly shape how people experience and understand the web through Spin the Web.
-
-
 ### WBDL Schema
 
 WBDL (Webbase Description Language) is the heart of Spin the Web, much like HTML is for the traditional web. WBDL is designed to evolve, allowing deeper, more articulated, and precise ways of describing new behaviors and web experiences. Contributors can help shape the future of WBDL by proposing new schema elements, refining existing ones, or suggesting improvements for clarity and expressiveness. If you have ideas for new features, want to address limitations, or are interested in standards development, your input is highly valued. By contributing to the WBDL schema, you help ensure that Spin the Web remains flexible, powerful, and relevant as the web itself evolves.
 
+### Webspinner Architecture
 
-### Communication & Teaching
+A webspinner is like a server-side web browser: it interprets WBDL (Webbase Description Language) in much the same way a browser interprets HTML. The Spin the Web project has selected [Deno](https://deno.com/) as its primary development environment, but webspinners can be implemented in any language. Webspinners are responsible for handling routing, authorizing users, rendering content, and executing dynamic behaviors as described by WBDL. This architecture enables flexible, secure, and scalable delivery of web portals, making it possible to build rich, data-driven experiences on the server side and deliver them to any client.
+
+If you are interested in server architecture, runtime environments, or building the next generation of web infrastructure, your expertise can help shape the evolution of webspinners and the broader Spin the Web ecosystem.
+
+### Spin the Web Studio
+
+Spin the Web Studio is a specialized webbaselet designed to allow users to modify webbases directly through an interactive interface. Defined in WBDL and powered by the webspinner, the Studio provides tools for editing, configuring, and managing the structure and content of webbases in real time. This enables both technical and non-technical users to collaboratively build and refine web portals without needing to write code manually.
+
+If you are interested in building intuitive editing tools, real-time collaboration features, or enhancing the user experience for web portal creators, contributing to Spin the Web Studio is a great way to make an impact.
+
+### Design
+
+Storytelling and animation are powerful ways to communicate what Spin the Web does and why it matters. If you have a passion for visual storytelling, illustration, or animation, your creativity can help bring the project’s mission and technology to life. Designing engaging narratives, explainer videos, or interactive demos can make complex ideas accessible and inspire new contributors and users. Whether you want to craft a story, animate a process, or visualize the impact of Spin the Web, your work will help shape how the world understands and connects with this project.
+
+### UI/UX
+
+If you are passionate about UI/UX, your skills are especially valuable. In our project, a “content” is a dynamic data unit that communicates with a datasource, receives a JSON response, and rendering in many ways—such as a table, list, Gantt chart, plot, tree, or graph. UI/UX contributors help design and prototype adaptable, accessible, and visually engaging components for these data types. Your work ensures that users can interact with complex, dynamic data in intuitive and meaningful ways. We encourage you to bring new ideas for visualizations, improve user flows, and test usability with real data and users. Your contributions will directly shape how people experience and understand the web through Spin the Web.
+
+### Communication
 
 Spin the Web is an open initiative to redefine how we describe, implement, and deliver web portals. It addresses the complexity and fragmentation of current web development by introducing a new standard—WBDL (Webbase Description Language)—that enables creators to describe entire web portals in a clear, modular, and collaborative way. By abstracting content, data, and presentation, Spin the Web empowers both technical and non-technical contributors to participate in building rich web experiences.
 
-One of the project’s core goals is to make the web more accessible—not just in terms of usability for people with disabilities, but also by lowering the barriers for anyone to contribute, teach, or communicate about web technology. If you are passionate about explaining concepts, writing documentation, creating tutorials, or helping others understand the value and mechanics of Spin the Web, your skills are essential. You can help by writing guides, recording videos, leading workshops, or simply answering questions in the community. Your contributions will help make Spin the Web approachable and impactful for everyone.
+If you are passionate about communicating ideas, sharing project updates, or engaging with the broader community, your skills are essential. You can help by writing blog posts, sharing news on social media, participating in discussions, or answering questions. Your contributions will help make Spin the Web visible, approachable, and impactful for everyone.
 
+### Teaching
+
+One of the project’s core goals is to make the web more accessible—not just in terms of usability for people with disabilities, but also by lowering the barriers for anyone to learn and contribute to web technology. If you enjoy teaching, you can help by creating tutorials, recording videos, leading workshops, or mentoring new contributors. Your efforts will empower others to understand and use Spin the Web, growing our community and impact.
 
 ### Documentation
 
