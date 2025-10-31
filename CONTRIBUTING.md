@@ -42,7 +42,7 @@ Storytelling and animation are powerful ways to communicate what Spin the Web do
 
 ### UI/UX
 
-If you are passionate about UI/UX, your skills are especially valuable. In our project, a “content” is a dynamic data unit that communicates with a datasource, receives a JSON response, and rendering in many ways—such as a table, list, Gantt chart, plot, tree, or graph. UI/UX contributors help design and prototype adaptable, accessible, and visually engaging components for these data types. Your work ensures that users can interact with complex, dynamic data in intuitive and meaningful ways. We encourage you to bring new ideas for visualizations, improve user flows, and test usability with real data and users. Your contributions will directly shape how people experience and understand the web through Spin the Web.
+If you are passionate about UI/UX, your skills are especially valuable. In our project, a “content” is a dynamic data unit that communicates with a datasource, receives a JSON response, and renders in specific way—such as a table, list, Gantt chart, plot, tree, or graph. UI/UX contributors help design and prototype adaptable, accessible, and visually engaging components for these data types. Your work ensures that users can interact with complex, dynamic data in intuitive and meaningful ways. We encourage you to bring new ideas for visualizations, improve user flows, and test usability with real data and users. Your contributions will directly shape how people experience and understand the web through Spin the Web.
 
 ### Communication
 
