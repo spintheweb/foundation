@@ -1,5 +1,3 @@
-![status: work in progress](https://img.shields.io/badge/status-WIP-yellow)
-
 # Spin the Web
 
 Spin the Web is an open, personally-driven project for digital transformation and open web standards. All development and governance are managed openly and transparently.

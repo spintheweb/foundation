@@ -1,4 +1,3 @@
-![status: work in progress](https://img.shields.io/badge/status-WIP-yellow)
 ![Contributors Wanted](https://img.shields.io/badge/contributors-wanted-brightgreen)
 ![Passion-Driven](https://img.shields.io/badge/project-passion--driven-blueviolet)
 
