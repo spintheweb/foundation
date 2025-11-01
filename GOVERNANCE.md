@@ -8,6 +8,12 @@ To promote digital transformation, open standards, and social impact through ope
 
 - Major decisions are made by community consensus and core contributors
 
+## Design Principles
+
+### Integration Principle
+
+Spin the Web promotes a composition-first architecture: applications expose REST backends and are presented in portals via WBDL-defined webbaselets, enabling a consistent and accessible user experience across systems. This principle is inclusive of both open and paid software. Participation does not require relinquishing licensing models; REST interactions can be monitored and reported using transparent, privacy-respecting telemetry to support usage insights, accountability, and potential sponsorship.
+
 ## Roles
 - **Core Contributors:** Trusted members with merge rights and decision authority
 - **Community Contributors:** Anyone participating via issues, PRs, or discussions
