@@ -3,7 +3,7 @@
 
 **Looking for contributors!**
 
-We welcome people who have as much passion for what they do as we have for what we do! Whether your interests are in protocol theory, teaching and education, communication and outreach, design and user experience (UX), logic and programming, open source advocacy, web accessibility, information architecture, standards development, documentation and technical writing, community building, security and privacy, data visualization, semantic web and linked data, automation and DevOps, digital sustainability, creative coding and digital art, or any related field—your enthusiasm and expertise can help shape the future of the web. Join us!
+We welcome people who have as much passion for what they do as we have for what we do! Whether your interests are in protocols, teaching and education, communication and outreach, design and user experience (UX), logic and programming, open source advocacy, web accessibility, information architecture, standards development, documentation and technical writing, community building, security and privacy, data visualization, semantic web and linked data, automation and DevOps, digital sustainability, creative coding and digital art, or any related field—your enthusiasm and expertise can help shape the future of the web. Join us!
 
 # Contributing to Spin the Web
 
