@@ -31,7 +31,7 @@ If you are interested in server architecture, runtime environments, or building 
 
 ### Spin the Web Studio
 
-Spin the Web Studio is a specialized webbaselet designed to allow users to modify webbases directly through an interactive interface. Defined in WBDL and powered by the webspinner, the Studio provides tools for editing, configuring, and managing the structure and content of webbases in real time. This enables both technical and non-technical users to collaboratively build and refine web portals without needing to write code manually.
+Spin the Web Studio is a webbaselet designed to allow users to modify webbases directly through an interactive interface. Defined in WBDL and powered by the webspinner, the Studio provides tools for editing, configuring, and managing the structure and content of webbases in real time. This enables both technical and non-technical users to collaboratively build and refine web portals without needing to write code manually.
 
 If you are interested in building intuitive editing tools, real-time collaboration features, or enhancing the user experience for web portal creators, contributing to Spin the Web Studio is a great way to make an impact.
 
